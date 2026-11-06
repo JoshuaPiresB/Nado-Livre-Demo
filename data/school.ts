@@ -17,7 +17,7 @@ export const school = {
   ],
   modalities: [
     { name: "Natação Infantil", description: "Uma experiência de aprendizado que combina movimento, diversão e novas descobertas dentro da piscina.", image: "/images/modalidade-natacao.webp", alt: "Crianças sorrindo durante aula de natação", scheduleId: "natacao-horarios", illustrative: true },
-    { name: "Hidroginástica", description: "Movimente-se, aproveite a água e descubra uma forma agradável de praticar atividades físicas.", image: "/images/modalidade-hidroginastica.webp", alt: "Profissional de natação em frente à piscina", scheduleId: "hidro-horarios", illustrative: true },
+    { name: "Hidroginástica", description: "Movimente-se, aproveite a água e descubra uma forma agradável de praticar atividades físicas.", image: "/images/modalidade-hidroginastica.webp", alt: "Aula fictícia de hidroginástica com adultos usando halteres aquáticos", scheduleId: "hidro-horarios", illustrative: true },
   ],
   teachers: [
     { name: "Ana Martins", role: "Professora", image: "/images/team/ana-martins.webp" },
