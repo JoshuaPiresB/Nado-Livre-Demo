@@ -4,13 +4,14 @@ import { school } from "@/data/school";
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
-    <Link className={`brand-logo ${light ? "brand-logo-light" : ""}`} href="/" aria-label={`${school.name} — início`}>
+    <Link className="brand-logo" href="/" aria-label={`${school.name} — início`}>
       <Image
         className="brand-logo-image"
         src={light ? "/images/logo-nado-livre-on-dark.svg" : "/images/logo-nado-livre.svg"}
         alt=""
         width={260}
         height={210}
+        style={{ filter: "none" }}
         priority
       />
     </Link>
