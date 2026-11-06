@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 210" role="img" aria-labelledby="title desc">
+  <title id="title">Nado Livre</title>
+  <desc id="desc">Símbolo abstrato de ondas com o nome Nado Livre</desc>
+  <defs>
+    <linearGradient id="water" x1="34" y1="22" x2="216" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28D2E8"/>
+      <stop offset="1" stop-color="#0879B9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="130" cy="83" r="67" fill="#073B67"/>
+  <path d="M61 75c23-22 44-22 67 0s44 22 71 0v22c-27 22-49 22-72 0S83 75 61 98V75Z" fill="url(#water)"/>
+  <path d="M77 116c18-13 34-13 51 0s34 13 55 0" fill="none" stroke="#FFD45E" stroke-width="12" stroke-linecap="round"/>
+  <text x="130" y="174" fill="#073B67" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="2" text-anchor="middle">NADO LIVRE</text>
+  <text x="130" y="198" fill="#0879B9" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="3" text-anchor="middle">ESCOLA AQUÁTICA</text>
+</svg>
