@@ -98,7 +98,6 @@ button { font: inherit; }
 .header-inner { width: min(1280px, calc(100% - 48px)); min-height: 84px; margin: auto; display: flex; align-items: center; gap: 32px; }
 .brand-logo { display: inline-flex; align-items: center; flex: 0 0 auto; }
 .brand-logo-image { display: block; width: 86px; height: 70px; object-fit: contain; transition: filter .25s ease, opacity .25s ease; }
-.brand-logo-light .brand-logo-image { filter: brightness(0) invert(1); }
 .brand-logo:hover .brand-logo-image { opacity: .86; }
 .desktop-nav { display: flex; align-items: center; gap: 23px; margin-left: auto; }
 .desktop-nav a { position: relative; font-size: .86rem; font-weight: 800; }
